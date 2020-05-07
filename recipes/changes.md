@@ -7,8 +7,9 @@ it is typically better to examine changes of the aggregated [CLDF dataset](https
 (e.g. [the changes between 4.2.1 and 4.1](https://github.com/glottolog/glottolog-cldf/compare/v4.1...v4.2.1)).
 
 For some cases, this may still be "too much". In the following we describe how to "condense" changes between two
-Glottolog releases down to just a list of changed languoid names. We'll use the tools of the 
-[csvkit](https://csvkit.readthedocs.io/en/1.0.2/index.html) package and optionally `git`.
+Glottolog releases down to just a list of changed languoid names. We'll use the shell, aka command line
+(see the [software carpentry lesson](https://swcarpentry.github.io/shell-novice/) for an excellent introduction) 
+and the tools of the [csvkit](https://csvkit.readthedocs.io/en/1.0.2/index.html) package and optionally `git`.
 
 1. Retrieve the table of languoids for the two releases we want to compare
    - either downloading and unpacking [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3754594.svg)](https://doi.org/10.5281/zenodo.3754594)
