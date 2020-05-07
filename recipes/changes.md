@@ -50,3 +50,10 @@ Glottolog releases down to just a list of changed languoid names. We'll use the 
    bayr1238,Badre'i,Bayray
    ...
    ```
+
+And if we are using [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) we can exploit the fact that all
+`csvkit` tools are built for [pipes](https://swcarpentry.github.io/shell-novice/04-pipefilter/index.html) and
+put all steps in one command:
+```
+$ csvjoin -c ID -q '"' <(git show v4.2.1:cldf/languages.csv | csvcut -c ID,Name) <(git show v4.1:cldf/languages.csv | csvcut -c ID,Name) | csvsql --query "select id, name, name2 from combined where name != name2 order by id" --tables combined
+```
