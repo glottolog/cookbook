@@ -20,12 +20,12 @@ Glottolog releases down to just a list of changed languoid names. We'll use the 
      $ git show v4.2.1:cldf/languages.csv > languages-4.2.1.csv
      $ git show v4.1:cldf/languages.csv > languages-4.1.csv
      ```
-2. Prune the two languoid tables to only the `ID` and `Name` columns:
+2. Prune the two languoid tables to only the `ID` and `Name` columns using [`csvcut`](https://csvkit.readthedocs.io/en/1.0.2/scripts/csvcut.html):
    ```
    $ csvcut -c ID,Name languages-4.2.1.csv > languages-4.2.1-pruned.csv
    $ csvcut -c ID,Name languages-4.2.1.csv > languages-4.2.1-pruned.csv
    ```
-3. Merge the two files into one, with two columns for the names in the two releases:
+3. Merge the two files into one, with two columns for the names in the two releases using [`csvjoin`](https://csvkit.readthedocs.io/en/1.0.2/scripts/csvjoin.html):
    ```
    $ csvjoin -c ID -q '"' languages-4.2.1-pruned.csv languages-4.1-pruned.csv > combined.csv
    ```
@@ -37,7 +37,7 @@ Glottolog releases down to just a list of changed languoid names. We'll use the 
    ...
    ```
    i.e. `Name` is the column with names in release 4.2.1, `Name2` for release 4.1 respectively.
-4. Narrow the list down to just the languoids with changed names:
+4. Narrow the list down to just the languoids with changed names using [`csvsql`](https://csvkit.readthedocs.io/en/1.0.2/scripts/csvsql.html):
    ```
    $ csvsql --query "select id, name, name2 from combined where name != name2 order by id" combined.csv 
    abkh1244,Abkhaz,Abkhazian
