@@ -1,0 +1,167 @@
+cldf_name,cldf_glottocode,cldf_iso639P3code,cldf_latitude,cldf_longitude,cldf_value,author,title,year,id
+Kuy,kuyy1240,kdt,14.6698,104.911,"long grammar","Chareanraat, Chirat","The Kuay language of Suphanburi",2525,hh:g:Chareanraat:Kuay
+Patwin,patw1250,pwi,39.2143,-122.0094,"long grammar","Lawyer, Lewis C.","A Grammar of Patwin",2021,hh:g:Lawyer:Patwin
+"Min Nan Chinese",minn1241,nan,24.5,118.17,"long grammar","Chen, Weirong","A Grammar of Southern Min: The Hui’an Dialect",2020,hh:g:Chen:Huian:2020
+Seeku,seek1238,sos,11.1285,-4.58203,"long grammar","McPherson, Laura","A grammar of Seenku",2020,hh:g:McPherson:Seenku
+Taiap,taia1239,gpn,-4.05047,144.506,grammar,"Kulick, Don and Terrill, Angela","A Grammar and Dictionary of Tayap: The Life and Death of a Papuan Language",2019,hh:gd:KulickTerrill:Tayap
+"Tlaxcala-Puebla-Central Nahuatl",cent2132,nhn,19.1248,-98.3002,"long grammar","Nájera, Lucero Flores","La gramática de la cláusula simple en el Náhuatl de Tlaxcala",2019,hh:g:Najera:Tlaxcala-Nahuatl
+"Qashqa'i",qash1240,qxq,28.25931,52.83349,"long grammar","Dolatkhah, Sohrab","Qashqai Turkic: A Comprehensive Corpus-based Grammar",2019,hh:g:Dolatkhah:Qashqai
+Bassari-Tanda,bass1258,bsc,12.4529,-13.3495,grammar,"Perrin, Loïc-Michel","Description grammaticale du Basari (Oniyan): Langue atlantique du Sénégal Oriental",2019,hh:g:Perrin:Basari
+Idun,idun1241,ldb,9.12585,7.77525,"long grammar","Marggrander, Anna","A Grammar of Dũya: A Plateau Language of Central Nigeria",2019,hh:g:Marggrander:Duya
+Abure,abur1243,abu,5.21534,-3.64123,grammar,"Yangra, Aboi F.","La syntaxe de l'abouré, langue kwa de Côte d'Ivoire",2019,hh:g:Yangra:Aboure
+Nyangbo,nyan1302,nyb,6.82649,0.37152,"long grammar","Essegbey, James","Tutrugbu (Nyangbo) Language and Culture",2019,hh:g:Essegbey:Tutrugbu
+Mbre,mbre1244,mka,8.20929,-5.72944,"long grammar","Heath, Jeffrey and Tioté, Brahima","A grammar of Pere (Bere, Mbre) of Côte d'Ivoire",2019,hh:g:HeathTiote:Pere
+Lakkia,lakk1238,lbc,24.1169,110.106,"long grammar","Fan, Wenjia","A Grammar of Lakkja, South China",2019,hh:g:Fan:Lakkja
+Majang,maja1242,mpe,7.71,34.97,"long grammar","Joswig, Andreas","The Majang Language",2019,hh:g:Joswig:Majang:2019
+Qaqet,qaqe1238,byx,-4.45258,151.702,"long grammar","Hellwig, Birgit","A Grammar of Qaqet",2019,hh:g:Hellwig:Qaqet
+"Medieval Greek",medi1251,,41.013889,28.955556,"long grammar","Holton, David and Horrocks, Geoffrey and Janssen, Marjolijne and Lendari, Tina and Manolessou, Io and Toufexis, Notis","The Cambridge grammar of medieval and early modern Greek",2019,hh:g:Holton:Medieval-Greek
+Gothic,goth1244,got,46.9304,29.9786,"long grammar","Miller, Gary D.","The Oxford Gothic Grammar",2019,hh:g:Miller:Gothic
+"Western Panjabi",west2386,pnb,30.0948,75.3474,grammar,"Bashir, Elena and Conners, Thomas J.","A Descriptive Grammar of Hindko, Panjabi, and Saraiki",2019,hh:g:BashirConners:Hindko-Panjabi-Saraki
+"Northern Hindko",nort2662,hno,34.3202,73.3844,grammar,"Bashir, Elena and Conners, Thomas J.","A Descriptive Grammar of Hindko, Panjabi, and Saraiki",2019,hh:g:BashirConners:Hindko-Panjabi-Saraki
+Saraiki,sera1259,skr,29.5534,71.906,grammar,"Bashir, Elena and Conners, Thomas J.","A Descriptive Grammar of Hindko, Panjabi, and Saraiki",2019,hh:g:BashirConners:Hindko-Panjabi-Saraki
+Bola,bola1250,bnp,-5.55792,150.095,grammar,"van den Berg, René and Wiebe, Brent","Bola Grammar Sketch",2019,hh:g:vandenBergWiebe:Bola
+"Southeast Ambrym",sout2859,tvk,-16.2975,168.211,"long grammar","Ridge, Eleanor Claire","Variation in Vatlongos Verbal Morphosyntax: speaker communities in Southeast Ambrym and Mele Maat",2019,hh:g:Ridge:Vatlongos
+Nganasan,ngan1291,nio,73.1354,86.2106,"long grammar","Wagner-Nagy, Beáta Boglárka","A grammar of Nganasan",2019,hh:g:Wagner-Nagy:Nganasan
+Sikkimese,sikk1242,sip,27.85795,88.59153,"long grammar","Yliniemi, Juha","A Descriptive Grammar of Denjongke (Sikkimese Bhutia)",2019,hh:g:Yliniemi:Sikkimese
+Dzongkha,dzon1239,dzo,27.410786,89.581604,"long grammar","of Gaselô, Karma Tshering and van Driem, George","The Grammar of Dzongkha Revised and Expanded, with a Guide to Roman Dzongkha and to Phonological Dzongkha",2019,hh:g:Tshering:Dzongkha
+Stau-Dgebshes,horp1239,ero,31.1026,101.72,"long grammar","Honkasalo, Sami","A grammar of Eastern Geshiza: A Culturally Anchored Description",2019,hh:g:Honkasalo:Geshiza
+Totoro,toto1306,ttk,2.55149,-76.6379,"long grammar","Gonzales Castaño, Geny","Una gramática de la lengua namtrik de Totoró: Lengua barbacoa hablada en los Andes colombianos",2019,hh:g:Gonzales:Namtrik
+"Chimalapa Zoque",chim1300,zoh,16.6543,-94.6913,"long grammar","Jiménez Jiménez, Silviano","Estudios de la gramática de la oración simple y compleja en el Zoque de San Miguel Chimalapa",2019,hh:g:Jimenez:Zoque-Chimalapa
+"Camsá",cams1241,kbh,1.14537,-76.8931,grammar,"O'Brien, Colleen Alena","A grammatical description of Kamsá: A language isolate of Colombia",2018,hh:g:OBrien:Kamsa
+Caddo,cadd1256,cad,33.33,-93.5,"long grammar","Chafe, Wallace","The Caddo Language; A grammar, texts and dictionary based on materials collected by the author in Oklahoma between 1960 and 1970",2018,hh:g:Chafe:Caddo
+"Tohono O'odham",toho1245,ood,31.7973,-111.995,grammar,"Shaul, David Leedom","Sonoran O'otam: A Description and Prospectus, with a Description of Ati Piman",2018,hh:g:Shaul:Sonora-Ootam
+Onondaga,onon1246,ono,42.92,-76.12,"long grammar","Woodbury, Hanni","A Reference Grammar of the Onondaga Language",2018,hh:g:Woodbury:Onondaga
+"Guerrero Amuzgo",guer1243,amu,16.77226,-98.18953,"long grammar","Do Bui, Bien","Grammaire de l'amuzgo de Xochistlahuaca, langue otomangue orientale: Documentation d'une variété amuzgoane de «langue en danger»",2018,hh:g:Bui:Amuzgo-Xochistlahuaca
+"Comaltepec Chinantec",coma1246,cco,17.5909,-96.445,grammar,"Anderson, Judi L.","Gramática del chinanteco de Santiago Comaltepec, Oaxaca",2018,hh:g:Anderson:Comaltepec:2018
+Tatar,tata1255,tat,55.0,50.0,"long grammar","Burbiel, Gustav","Tatar grammar: A Grammar of the Contemporary Tatar Literary Language",2018,hh:g:Burbiel:Tatar
+Nawdm,nawd1238,nmz,7.17037,0.58553,grammar,"Nicole, Jacques","Grammaire du nawdm, parler de Niamtougou (Togo)",2018,hh:g:Nicole:Nawdm:2018
+Mbuk,mbuk1244,,6.535575,10.415141,"long grammar","Tschonghongei, Nelson C.","Mbuk documentary grammar",2018,hh:g:Tschonghongei:Mbuk
+Kwakum,kwak1266,kwu,4.34393,13.6446,"long grammar","Njantcho Kouagang, Elisabeth","A grammar of Kwakum",2018,hh:g:Kouagang:Kwakum
+Mbugwe,mbug1242,mgz,-3.75763,35.8133,grammar,"Wilhelmsen, Vera","A Linguistic Description of Mbugwe with Focus on Tone and Verbal Morphology",2018,hh:g:Wilhelmsen:Mbugwe
+Fwe,fwee1238,fwe,-17.72372,24.43151,"long grammar","Gunnink, Hilde","A grammar of Fwe: A Bantu language of Zambia and Namibia",2018,hh:g:Gunnink:Fwe
+"Karo (Ethiopia)",karo1297,kxh,5.2101,36.1709,grammar,"Alemgena, Belete","Documentation and Grammatical Description of Kara",2018,hh:g:Alemgena:Kara
+Boruca,boru1252,brn,8.88093,-83.2124,grammar,"Quesada Pacheco, Miguel Ángel","Gramática boruca",2018,hh:g:Quesada:Boruca
+Bouyei,bouy1240,pcc,24.8484,106.187,grammar,"Snyder, Wil","The Bouyei Language",2018,hh:g:Snyder:Bouyei
+"Ma Manda",sauk1252,skc,-6.31958,146.759,"long grammar","Pennington, Ryan","A grammar of Ma Manda: A Papuan language of Morobe Province, Papua New Guinea",2018,hh:g:Pennington:Ma-Manda:2018
+"Ancient Greek",anci1242,grc,39.8155,21.9129,"long grammar","van Emde Boas, Evert and Rijksbaron, Albert and Huitink, Luuk and de Bakker, Mathieu","The Cambridge Grammar of Classical Greek",2018,hh:g:vanEmde:Classical-Greek
+Baiso,bais1246,bsw,6.44892,37.7681,grammar,"Lemmi, Kebebew Gnarie","Grammatical Description and Documentation of Bayso",2018,hh:g:Lemmi:Bayso
+"Sebat Bet Gurage",seba1251,sgw,8.11879,37.9891,"long grammar","Assefa, Endalew","Descriptive Grammar of Ezha: A Central West Gurage Language, Ethio-Semitic",2018,hh:g:Assefa:Ezha
+Bathari,bath1244,bhm,17.4485,53.119,grammar,"Gasparini, Fabio","Baṭḥari Language of Oman: Towards a Descriptive Grammar",2018,hh:g:Gasparini:Bathari
+Kilmeri,kilm1241,kih,-2.88607,141.191,"long grammar","Gerstner-Link, Claudia","A Grammar of Kilmeri",2018,hh:g:Gerstner-Link:Kilmeri:2018
+"Ulwa (Papua New Guinea)",yaul1241,yla,-4.39912,143.993,"long grammar","Barlow, Russell","A grammar of Ulwa",2018,hh:g:Barlow:Ulwa
+Kanakanavu,kana1286,xnb,23.3235,120.887,grammar,"Wild, Ilka","Voice and transitivity in Kanakanavu",2018,hh:g:Wild:Kanakanavu
+Blablanga,blab1237,blp,-8.15058,159.419,"long grammar","Voica, Radu","A fieldwork-based approach to Blanga (Blablanga), an Austronesian language of the Solomon Islands, with reference to predicate-argument relations",2018,hh:g:Voica:Blanga
+"Cheke Holo",chek1238,mrn,-8.27055,159.625,"long grammar","Boswell, Fredrick","A Grammar of Cheke Holo",2018,hh:g:Boswell:Cheke-Holo
+Waigeo,waig1244,wgo,-0.17957,130.917,"long grammar","Arnold, Laura","A grammar of Ambel: An Austronesian language of Raja Ampat, west New Guinea",2018,hh:g:Arnold:Ambel
+"Tuparí",tupa1250,tpr,-11.8884,-62.2544,"long grammar","Singerman, Adam Roth","The morphosyntax of Tuparí, a Tupían language of the Brazilian Amazon",2018,hh:g:Singerman:Tupari
+"Asho Chin",asho1236,csh,21.393,93.5069,"long grammar","Zakaria, Muhammad","A grammar of Hyow",2018,hh:g:Zakaria:Hyow
+Zbu,zbua1234,,32.1506,101.7048,"long grammar","Gong, Xun","Le rgyalrong zbu, une langue tibéto-birmane de Chine du Sud-ouest: Une étude descriptive, typologique et comparative",2018,hh:g:Gong:Zbu
+Phunoi,phun1245,pho,20.7996,100.957,grammar,"Dai, Qingxia and Chen, E and Peng, Ru and Sivilay, Thongbay and Sivilay, Shark","Lǎowō pǔnèi yǔ yánjiū",2018,hh:g:Dai:Punei
+Taulil,taul1251,tuh,-4.44425,152.095,"long grammar","Meng, Chenxi","A grammar of Tulil",2018,hh:g:Meng:Tulil
+"Chácobo",chac1251,cao,-12.133,-66.7164,"long grammar","Tallman, Adam J. R.","A Grammar of Chácobo, a southern Pano language of the northern Bolivian Amazon",2018,hh:g:Tallman:Chacobo
+Zayse-Zergulla,zays1235,zay,5.83747,37.3409,"long grammar","Yeshimebet, Bogale Endale","Documentation and Grammatical Description of Zaysete Language",2017,hh:g:Yeshimebet:Zaysete
+Kachama-Ganjule-Haro,kach1284,kcx,6.3971,37.9291,"long grammar","Sintayehu, Semu Workineh","Phonology, Morphology and Syntax of Ganta",2017,hh:g:Sintayehu:Ganta
+"Yanomám",yano1262,wca,2.48999,-62.8522,"long grammar","Perri Ferreira, Helder","Yanomama Clause Structure",2017,hh:g:Perri:Yanomama
+Huichol,huic1243,hch,21.954,-104.062,"long grammar","Bierge, Stefanie Ramos","Clause Types and Transitivity in Wixárika (Huichol): a Uto-Aztecan Language",2017,hh:g:Bierge:Wixarika
+Bainounk-Gujaher,bain1259,bab,12.3128,-16.0586,"long grammar","Goudiaby, Arame","Éléments de grammaire du Gújááhár, parler Baïnounck de Niaguis (Casamance)",2017,hh:g:Goudiaby:Gujaahar-Niaguis
+Nyabwa,nyab1255,nwb,6.87615,-6.84428,"long grammar","Allou, Serge Yannick","Description linguistique et sociolinguistique du kouzie (parler kru de cote d'ivoire)",2017,hh:g:Allou:Kouzie
+Kusaal,kusa1250,kus,10.9703,-0.38756,"long grammar","Eddyshaw, David","A Grammar of Agolle Kusaal",2017,hh:g:Eddyshaw:Agolle-Kusaal
+Kolbila,kolb1240,klc,8.26797,13.2707,grammar,"Littig, Sabine","Linguistische Beschreibung des Kolbila: Eine Adamawasprache der Nordregion Kameruns",2017,hh:g:Littig:Kolbila
+Mundabli,mund1328,boe,6.59969,10.2704,"long grammar","Voll, Rebecca","A grammar of Mundabli: A Bantoid (Yemne-Kimbi) language of Cameroon",2017,hh:g:Voll:Mundabli
+Emai-Iuleha-Ora,emai1241,ema,7.09089,5.84494,"long grammar","Schaefer, Ronald P. and Egbokhare, Oisaghaede Francis","A grammar of Emai",2017,hh:g:SchaeferEgbokhare:Emai
+Igala,igal1242,igl,7.34325,7.17974,grammar,"Ejeba, Salem Ochala","A grammar of Ígálâ",2017,hh:g:Ejeba:Igala:2017
+Ga,gaaa1244,gaa,5.65488,-0.18598,"long grammar","Campbell, Akua Asantewaa","A grammar of Gã",2017,hh:g:Campbell:Ga
+"San Dionisio del Mar Huave",sand1278,hve,16.3514,-94.7001,"long grammar","Salminen, Mikko","A Grammar of Umbeyajts as spoken by the Ikojts people of San Dionisio del Mar, Oaxaca, Mexico",2017,hh:g:Salminen:Umbeyajts
+Wano,wano1243,wno,-3.47858,137.678,"long grammar","Burung, Willem","A grammar of Wano",2017,hh:g:Burung:Wano
+"Sivia Sign Language",sivi1235,lsv,,,"long grammar","Clark, Brenda","A grammatical sketch of Sivia Sign Language",2017,hh:g:Clark:Sivia-Sign
+Aragonese,arag1245,arg,42.4669,-0.00919,"long grammar","{Estudio de Filología Aragonesa}","Gramatica Basica de l'Aragonés (Texto Provisional)",2017,hh:g:EFA:Aragones
+Prasuni,pras1239,prn,35.1731,70.8004,"long grammar","Buddruss, Georg and Degener, Almuth","Materialien zur Prasun-Sprache des afghanischen Hindukusch, Teil II: Grammatik",2017,hh:g:BuddrussDegener:Prasun
+Dhivehi,dhiv1236,div,1.928498,73.54433,"long grammar","Gnanadesikan, Amalia E.","Dhivehi: The Language of the Maldives",2017,hh:g:Gnanadesikan:Dhivehi
+Sarikoli,sari1246,srh,37.905,75.1449,"long grammar","Kim, Deborah","Topics in the syntax of Sarikoli",2017,hh:g:Kim:Sarikoli
+"Muslim Tat",musl1236,ttt,41.425062,46.645589,"long grammar","Mammadova, Nayiba","Eléments de description et documentation du tat de l'Apshéron, langue iranienne d'Azerbaïdjan",2017,hh:g:Mammadova:Tat-Apsheron
+"Yanda Dom Dogon",yand1257,dym,14.63,-3.15,"long grammar","Heath, Jeffrey","A Grammar of Yanda Dom (Dogon, Mali)",2017,hh:g:Heath:Yanda-Dom
+Moloko,molo1266,mlw,10.7933,14.2521,"long grammar","Friesen, Dianne and Mamalis, Megan","A grammar of Moloko",2017,hh:g:Friesen:Moloko
+"Sudanese Creole Arabic",suda1237,pga,5.654,28.774,grammar,"Manfredi, Stefano","Arabi Juba: un pidgin-créole du Soudan du Sud",2017,hh:g:Manfredi:Arabi-Juba
+Turoyo,turo1239,tru,37.2275,42.1451,"long grammar","Waltisberg, Michael","Syntax des Ṭuroyo",2017,hh:g:Waltisberg:Turoyo
+"Murui Huitoto",muru1274,huu,-1.13669,-73.8331,"long grammar","Wojtylak, Katarzyna I.","A Grammar of Murui (Bue): A Witotoan language of Northwest Amazonia",2017,hh:g:Wojtylak:Murui-Bue
+Opo,opuu1239,lgn,8.47526,33.853,grammar,"Mellese, Gelaneh Alemu","Documentation and grammatical description of Tapo",2017,hh:g:Mellese:Tapo
+"Papuan Malay",papu1250,pmy,-2.53482,139.651,"long grammar","Kluge, Angela","A grammar of Papuan Malay",2017,hh:g:Kluge:Papuan-Malay:2017
+Arta,arta1239,atz,16.4185,121.656,"long grammar","Kimoto, Yukinori","A Grammar of Arta: A Philippine Negrito Language",2017,hh:g:Kimoto:Arta
+Rapanui,rapa1244,rap,-27.113,-109.342,"long grammar","Kieviet, Paulus","A grammar of Rapa Nui",2017,hh:g:Kieviet:Rapa-Nui
+Woi,woii1237,wbw,-1.62746,135.484,"long grammar","Sawaki, Yusuf","A grammar of Wooi: An Austronesian language of Yapen Island, Western New Guinea",2017,hh:g:Sawaki:Wooi
+Marind,nucl1622,mrz,-8.15651,140.009,"long grammar","Olsson, Bruno","The Coastal Marind Language",2017,hh:g:Olsson:Coastal-Marind
+Deni,deni1241,dny,-6.74962,-67.5029,grammar,"de Carvalho, Mateus Cruz Maciel","Estudo morfossintático da língua Deni (Arawá)",2017,hh:g:deCarvalho:Deni
+"Eel River Athabaskan",wail1244,wlk,39.1513,-123.284,grammar,"Begay, Kayla Rae","Wailaki Grammar",2017,hh:g:Begay:Wailaki
+"Huaylla Wanca Quechua",huay1241,qvw,-12.1809,-75.2055,grammar,"Shimelman, Aviva","A grammar of Yauyos Quechua",2017,hh:g:Shimelman:Yauyos-Quechua
+"Huangascar-Topara-Yauyos Quechua",yauy1235,qux,-13.1144,-75.7659,grammar,"Shimelman, Aviva","A grammar of Yauyos Quechua",2017,hh:g:Shimelman:Yauyos-Quechua
+"Chincha Quechua",chin1483,qxc,-12.85,-75.649,grammar,"Shimelman, Aviva","A grammar of Yauyos Quechua",2017,hh:g:Shimelman:Yauyos-Quechua
+"Nyang'i",nyan1313,nyp,3.4997,33.73651,grammar,"Beer, Samuel James","Grammatical Contraction in Nyang'i: A Descriptive and Comparative Study",2017,hh:g:Beer:Nyangi
+"Ngkontar Ngkolmpu",ngka1235,kcd,-8.87044,140.818,"long grammar","Carroll, Matthew","The Ngkolmpu Language with special reference to distributed exponence",2017,hh:g:Carroll:Ngkolmpu
+Oki-No-Erabu,okin1246,okn,27.3738,128.619,"long grammar","Tokunaga-Yokoyama, Akiko","Ryūkyū Okinoerabu Kunigami Hogen no bunpo",2017,hh:g:Tokunaga-Yokoyama:Kunigami
+"Tornedalen Finnish",torn1244,fit,67.2527,23.066,"long grammar","Söderholm, Eira","Kvensk grammatikk",2017,hh:g:Soderholm:Kvensk:2017
+"Pará Arára",para1310,aap,-3.71263,-53.0657,grammar,"Alves, Ana Carolina Ferreira","Morfofonologia, morfossintaxe e o sistema de tempo, aspecto e modo em Arara (Karib)",2017,hh:g:Alves:Arara
+Tangam,tang1377,,28.95,94.98,"long grammar","Post, Mark W.","The Tangam Language: Grammar, Dictionary and Texts",2017,hh:g:Post:Tangam
+Milang,mila1245,,28.5539908,95.186127,"long grammar","Modi, Yankee","The Milang Language: Grammar and Texts",2017,hh:g:Modi:Milang
+Duhumbi,chug1252,cvg,27.4177713,92.2255891,"long grammar","Bodt, Timotheus Adrianus","Grammar of Duhumbi (Chugpa)",2017,hh:g:Bodt:Duhumbi
+"Western Puroik",west2873,,27.6808861,93.1364474,grammar,"Lieberherr, Ismael","A Grammar of Bulu Puroik",2017,hh:g:Lieberherr:Bulu-Puroik
+Namuyi,namu1246,nmy,28.5909,101.898,grammar,"Pavlík, Štěpán","The Description of Namuzi Language",2017,hh:g:Pavlik:Namuzi
+Khroskyabs,guan1266,jiq,31.5655,101.928,"long grammar","Lai, Yunfan","Grammaire du khroskyabs de Wobzi",2017,hh:g:Lai:Lavrung-Wobzi
+"Wuding-Luquan Yi",wudi1238,ywq,25.48,102.48,"long grammar","Pu, Zhongliang","Nasu yiyu yufa yanjiu",2017,hh:g:Pu:Nasu
+"Nocte Naga",noct1238,njb,27.152,95.3903,"long grammar","Boro, Krishna","A Grammar of Hakhun Tangsa",2017,hh:g:Boro:Hakhun-Tangsa
+Aguaruna,agua1253,agr,-5.30044,-77.9218,"long grammar","Overall, Simon","A Grammar of Aguaruna (Iiniá Chicham)",2017,hh:g:Overall:Aguaruna:2017
+Lumun,lumu1239,lmd,10.8308,30.253,"long grammar","Smits, Heleen","A grammar of Lumun",2017,hh:g:Smits:Lumun
+Kakabe,kaka1265,kke,10.5962,-11.4418,"long grammar","Vydrina, Alexandra","A corpus‐based description of Kakabe, a Western Mande language: prosody in grammar",2017,hh:g:Vydrina:Kakabe
+Jalkunan,jalk1242,bxl,10.5426,-5.21959,"long grammar","Heath, Jeffrey","A grammar of Jalkunan (Mande, Burkina Faso)",2017,hh:g:Heath:Jalkunan
+Momu-Fas,fass1245,fqs,-3.10868,141.64,"long grammar","Honeyman, Thomas","A grammar of Momu, a language of Papua New Guinea",2017,hh:g:Honeyman:Momu
+"South-Eastern Ju",juho1239,ktz,-19.688,20.7673,"long grammar","Pratchett, Lee J.","Dialectal diversity in Southeastern Ju (Kx'a) and a documentation of Groot Laagte ǂKx'aoǁ'ae",2017,hh:g:Pratchett:Kxaoae
+Teso,teso1249,teo,1.18321,33.9394,"long grammar","Barasa, David","Ateso Grammar: A Descriptive Account of an Eastern Nilotic Language",2017,hh:g:Barasa:Ateso:PhD
+Yeri,yapu1240,yev,-3.47256,142.436,"long grammar","Wilson, Jennifer","A grammar of Yeri: A Torricelli language of Papua New Guinea",2017,hh:g:Wilson:Yeri
+Kakua,cacu1241,cbv,0.88778,-69.5659,"long grammar","Bolaños, Katherine","A Grammar of Kakua",2016,hh:g:Bolanos:Kakua
+"Iu Mien",iumi1238,ium,20.83,101.17,"long grammar","Arisawa, Tatsuro Daniel","An Iu Mien Grammar: A Tool for Language Documentation and Revitalisation",2016,hh:g:Arisawa:Iu-Mien
+"Yatzachi Zapotec",yatz1235,zav,17.1869,-96.284,"long grammar","López Nicolás, Óscar","Estudios de la fonología y gramática del zapoteco de Zoochina",2016,hh:g:Lopez:Zapoteco-Zoochina
+Salar,sala1264,slr,35.5457,102.819,"long grammar","Simon, Camille","Morphosyntaxe et sémantique grammaticale du salar et du tibétain de l'Amdo: analyse d'un contact de langues",2016,hh:g:Simon:Salar
+"Mbo (Cameroon)",mboc1235,mbo,5.13981,9.92766,"long grammar","Éwané, Christiane Félicité","Description systématique du Mbo (langue bantoue A.15)",2016,hh:g:Ewane:Mbo
+Soga,soga1242,xog,0.40456,33.3942,"long grammar","Nabirye, Minah","A corpus-based grammar of Lusoga",2016,hh:g:Nabirye:Lusoga
+Sekpele,sekp1241,lip,7.16751,0.5886,"long grammar","Delalorm, Cephas","Documentation and description of Sɛkpɛlé: a Ghana-Togo mountain language of Ghana",2016,hh:g:Delalorm:Sekpele
+Nkami,nkam1239,nkq,7.0556,-0.0372,"long grammar","Asante, Krobea Rogers","Nkami language: Description and analysis",2016,hh:g:Asante:Nkami
+"Ebrié",ebri1238,ebr,5.36868,-4.03188,grammar,"Mobio, Djigbé François","Description systématique de l'ebrie (parler bidjan-nkyan), langue kwa de cote d'ivoire",2016,hh:g:Mobio:Ebrie
+Hamer-Banna,hame1242,amf,5.06515,36.5176,"long grammar","Petrollino, Sara","A Grammar of Hamar, a South Omotic language of Ethiopia",2016,hh:g:Petrollino:Hamar
+Aimele,aime1238,ail,-6.68656,142.656,"long grammar","Aiton, Grant","Grammatical Relations and Information Structure in Eibela: A typological perspective",2016,hh:g:Aiton:Eibela
+"Yerong-Southern Buyang",yero1238,yrn,23.342,105.754,"long grammar","Mo, Haiwen","Róngtún bùyāng yǔ cānkǎo yǔfǎ",2016,hh:g:Mo:Rongtun-Buyang
+Amele,amel1241,aey,-5.29126,145.687,"long grammar","Roberts, John R.","Amele RRG Grammatical Sketch",2016,hh:g:Roberts:Amele:2016
+Aghu,aghu1255,ahh,-6.34674,140.043,grammar,"van den Heuvel, Wilco","Aghu: annotated texts with grammatical introduction and vocabulary lists",2016,hh:gtd:vandenHeuvel:Aghu
+"Middle English",midd1317,enm,51.65,-1.11,"long grammar","Mustanoja, Tauno F.","A Middle English Syntax: Parts of speech",2016,hh:g:Mustanoja:Middle-English
+Palula,phal1254,phl,35.5096,71.8421,"long grammar","Liljegren, Henrik","A grammar of Palula",2016,hh:g:Liljegren:Palula:2016
+Laki,laki1244,lki,34.0103,47.9398,grammar,"Belelli, Sara","A study on language and folklore in the city of Harsin (in Kermānshāh province of West Iran): Sketch grammar with texts and lexicon",2016,hh:g:Belelli:Harsin
+Nanga,nang1261,nzz,14.49,-3.02,"long grammar","Heath, Jeffrey","A Grammar of Nanga",2016,hh:g:Heath:Nanga
+Alagwa,alag1248,wbj,-4.64148,35.7231,"long grammar","Mous, Maarten","Alagwa -- A South Cushitic Language of Tanzania",2016,hh:g:Mous:Alagwa
+Awngi,awng1244,awn,10.9819,36.6916,"long grammar","Allene, Yaregal","A Grammar of Kulazngi",2016,hh:g:Allene:Kulazngi
+Inoric,inor1238,ior,7.94883,37.7968,"long grammar","Adnew, Meheretu","Descriptive Grammar of Gyeta",2016,hh:g:Meheretu:Gyeta
+"Dhofari Arabic",dhof1235,adf,17.0796,54.4894,"long grammar","Davey, Richard J.","Coastal Dhofari Arabic: A Sketch Grammar",2016,hh:g:Davey:Dhofari:2016
+"Old Aramaic-Sam'alian",olda1245,oar,32.84,37.0,"long grammar","Fales, Frederick Mario and Grassi, Giulia Francesca","L'aramaico antico: Storia, grammatica, testi commentati",2016,hh:g:Fales:Aramaico-Antico
+Kelabit,kela1258,kzi,3.31783,115.428,"long grammar","Hemmings, Charlotte","The Kelabit language: Austronesian voice and syntactic typology",2016,hh:g:Hemmings:Kelabit:2016
+"Ahin-Kayapa Kalanguya",ahin1234,kak,16.321,120.90003,grammar,"Santiago, Paul Julian","Karanguya-go bunpō",2016,hh:g:Santiago:Kalanguya
+Nauete,naue1237,nxa,-8.70733,126.741,grammar,"Veloso, Alexandre","A grammar sketch of Naueti, a language of East Timor",2016,hh:g:Veloso:Naueti
+Lamaholot,lama1277,slp,-8.36439,122.803,"long grammar","Kroon, Yosep Bisara","A grammar of Solor-Lamaholot: A Language of Flores, Eastern Indonesia",2016,hh:g:Kroon:Solor
+Nese,nese1235,,-15.952608,167.222769,"long grammar","Takau, Lana Grelyn","A grammar of Nese",2016,hh:g:Takau:Nese
+"Vurës",vure1239,msn,-13.905677,167.451412,"long grammar","Malau, Catriona","A Grammar of Vurës, Vanuatu",2016,hh:g:Malau:Vures
+"East Uvean",wall1257,wls,-13.2903,-176.207,grammar,"Moyse-Faurie, Claire","Te Lea Faka'uvea: Le Wallisien",2016,hh:g:Moyse-Faurie:Wallisien
+"Southern Cook Island Maori",raro1241,rar,-21.23,-159.78,"long grammar","Nicholas, Sally Akevai Te Namu","Ko te Karāma o te Reo Māori o te Pae Tonga o Te Kuki Airani: A Grammar of Southern Cook Islands Māori",2016,hh:g:Nicholas:Southern-Cook-Islands-Maori
+Konai,kona1242,kxw,-5.66011,142.069,"long grammar","Årsjö, Britten","Konai Reference Grammar",2016,hh:g:Arsjo:Konai
+Shatt,shat1244,shj,10.8525,29.7687,grammar,"Alfira, David Abbi and Kafi, Timothy Kuku and Kaki, Hassan Kuwa and Hasan, Ali Alaliim and Anjo, Anjo Kuku and Jas, Dayan Kuku and Sarukh, Sadik Kafi","Caning Grammar Book",2016,hh:g:Alfira:Caning:2016
+"Anta-Komnzo-Wára-Wérè-Kémä",wara1294,tci,-8.64917,141.52,"long grammar","Döhler, Christian","Komnzo: A language of Southern New Guinea",2016,hh:g:Dohler:Komnzo
+Kikai,kika1239,kzg,28.31,129.982,grammar,"Shirata, Rihito","Ryūkyū Amami Kikaijima Kamikatetsu hōgen no bunpō",2016,hh:g:Shirata:Kikai-Kamikatetsu
+Mehek,mehe1243,nux,-3.70927,142.498,"long grammar","Hatfield, Adam","A grammar of Mehek",2016,hh:g:Hatfield:Mehek
+"Amdo Tibetan",amdo1237,adx,34.5177,100.485,"long grammar","Dpal, Ldan Bkra Shis","Amdo Tibetan Language: An Introduction to Normative Oral Amdo",2016,hh:g:Dpal:Amdo
+Situ,situ1238,,31.590536,102.660664,"long grammar","Prins, Maria Clazina","A Grammar of rGyalrong, Jiǎomùzú (Kyom-kyo) Dialects",2016,hh:g:Prins:rGyalrong-Jiaomuzu:2016
+"Southern Qiang",sout2728,qxs,31.5392,103.384,"long grammar","Zheng, Wuxi","A Grammar of Longxi Qiang",2016,hh:g:Zheng:Longxi-Qiang:2016
+Tosu,tosu1234,,28.533333,102.083333,grammar,"Chirkova, Katia and Han, Zhengkang","Shíyòng duōxùyǔ yǔfǎ",2016,hh:g:ChirkovaHan:Duoxu
+Honi,honi1244,how,23.2074,101.886,"long grammar","Cài, Jíyàn","Hāníyǔ wōní huà yánjiū",2016,hh:g:Cai:Woni
+Dumi,dumi1241,dus,27.45849,86.75699,"long grammar","Rai, Netra Mani","A grammar of Dumi",2016,hh:g:Rai:Dumi:2016
+Wutunhua,wutu1241,wuh,35.269,101.957,"long grammar","Sandman, Erika","A Grammar of Wutun",2016,hh:g:Sandman:Wutun
+Dagik,dagi1241,dec,10.583,29.9404,grammar,"Vanderelst, John","A Grammar of Dagik: A Kordofanian Language of Sudan",2016,hh:g:Vanderelst:Dagik
+Garifuna,gari1256,cab,15.3529,-86.9091,"long grammar","Haurholm-Larsen, Steffen","A Grammar of Garifuna",2016,hh:g:Haurholm-Larsen:Garifuna
+Dazaga,daza1242,dzg,15.7358,15.8517,grammar,"Walters, Josiah Keith","A grammar of Dazaga",2016,hh:g:Walters:Dazaga:2016
+Markweeta,mark1255,enb,1.15018,35.5866,"long grammar","Mietzner, Angelika","Cherang'any: A Kalenjin Language of Kenya",2016,hh:g:Mietzner:Cherangany
+Jumjum,jumj1238,jum,10.4349,33.7494,grammar,"Fadul, Yousif Aljuzuli and Chol, Terafi Mohadin and Teebu, Muusa Nuer and Yousif, Bal Douwash and Blang, Abrahama Kidir and Anur, Abdalmajid Juma","Jumjum Grammar Book",2016,hh:g:Fadul:Jumjum
+Reel,reel1238,atu,6.32234,30.49451,grammar,"Cien, Mark Akec and Piiny, Andrew Agok Igai and Angong, David Mabor Makuei and Kerjok, John Malak Balang and Johou, Daniel Majier and Nhial, David Kuacreng","Reel grammar book",2016,hh:g:Cien:Reel

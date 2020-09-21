@@ -88,3 +88,8 @@ $ sqlite3 glottolog.sqlite "select l.cldf_glottocode as Glottocode, l.cldf_name 
 
 Note that column names in the SQLite database are the local names of the
 corresponding properties in the [CLDF Ontology](https://cldf.clld.org/v1.0/terms.rdf) (i.e. the names after the `#` in the term URL), prefixed with `cldf_`.
+
+
+## Recipes
+
+- [Listing recent grammars](recent_grammars.md)
