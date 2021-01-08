@@ -6,7 +6,7 @@ typically using the Python library [`pyglottolog`](https://github.com/glottolog/
 
 - [Glottolog data as CLDF](recipes/glottolog_cldf/README.md): Accessing Glottolog data as CLDF dataset.
   - to [list recent grammars](recipes/glottolog_cldf/recent_grammars.md)
-- [Examining changes across Glottolog releases](recipes.changes.md).
+- [Examining changes across Glottolog releases](recipes/changes.md).
 - [treemaker](treemaker): Extracting a tree for a given set of languoids from the global tree.
 - [`recipes/locations_of_child_languages.py`](recipes/locations_of_child_languages.py) is a script to extract locations for all languages in a given clade. It must be invoked specifying the local path to a clone of the Glottolog repository, the glottocode of the clade and the name of the CSV file to which to write the data, e.g. - if
 invoked from within the `cookbook` directory of a repository clone:
