@@ -3,6 +3,33 @@
 Glottolog's [GlottoScope](https://glottolog.org/langdoc/status/browser?macroarea=Africa&focus=sdt) allows you to investigate the descriptive status languages, coded as [Most Extensive Description](https://glottolog.org/meta/glossary#sec-mostextensivedescriptionmed),
 over time.
 
+As of Glottolog 4.5, the CLDF dataset at https://doi.org/10.5281/zenodo.3260727 includes this data as parameter `medovertime`. The `Value` column of
+the `ValueTable` contains a python list serialized as string giving the text citations of the MEDs from latest to earliest, and the `Source` column
+lists the keys of these MEDs to look up metadata in the accompanying sources file.
+
+Thus, what the recipe below does can also be done in one (longish) shell command:
+```shell
+$ csvgrep -c Parameter_ID -m"medovertime" cldf/values.csv | \
+  csvgrep -c Language_ID -m"stan1293" | \
+  csvcut -c Value | \
+  sed 1d | \
+  sed --expression='s/"//g' | \
+  sed --expression="s/'/\"/g"| \
+  jq 'reverse | map(.[0:70])'
+[
+  "Lily, William. 1549. A Shorte Introduction of Grammar. London: R. Wolf",
+  "Greaves, Paul. 1594. Grammatica Anglicana, praecipue quatenus a Latina",
+  "Jonson, Benjamin. 1909 [1640]. The English Grammar made by Ben Jonson.",
+  "Cooper, Christopher. 1685. Grammatica Linguae Anglicanae. Londres: J. ",
+  "J. Wright. 1892. A Grammar of the Dialect of Windhill, in the West Rid",
+  "Nida, Eugene Albert and Elson, Benjamin. 1962. A synopsis of English s",
+  "Dutton, Tom E. 1966. The informal speech of Palm Island Aboriginal chi",
+  "Shorrocks, Graham. 1980. A grammar of the dialect of Farnworth and dis",
+  "Quirk, Randolph and Sidney Greenbaum and Geoffrey Leech and Jan Svartv",
+  "Huddleston, Rodney D. and Pullum, Geoffrey K. 2002. The Cambridge gram"
+]
+```
+
 This is somewhat expensive to compute, since it requires access to the
 bulk of Glottolog data. Glottoscope does this on-the-fly, because it has
 access to all data in a highly queryable relational database.
