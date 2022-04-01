@@ -14,6 +14,11 @@ there is also an option to access Glottolog data with "off-the-shelve" tools
 like excel or csvkit and from other programming environments like R or SQL: 
 The [Glottolog CLDF dump](https://doi.org/10.5281/zenodo.3260727) at [DOI: 10.5281/zenodo.3260727](https://doi.org/10.5281/zenodo.3260727).
 
+You can obtain the Glottolog CLDF dataset by
+- downloading (and unpacking) an archived version from [Zenodo](https://doi.org/10.5281/zenodo.3260727) (look for "Versions" to access older releases)
+- downloading (and unpacking) a release from [GitHub](https://github.com/glottolog/glottolog-cldf/releases)
+- or cloning the [repository](https://github.com/glottolog/glottolog-cldf) and checking out a release tag.
+
 Like all [CLDF](https://cldf.cld.org) datasets, this consists of
 - a [JSON-LD encoded metadata file](https://github.com/glottolog/glottolog-cldf/blob/master/cldf/cldf-metadata.json)
 - a [set of interrelated CSV tables](https://github.com/glottolog/glottolog-cldf/tree/master/cldf)
