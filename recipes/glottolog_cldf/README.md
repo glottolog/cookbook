@@ -1,5 +1,14 @@
 # Using the Glottolog data from the CLDF Dataset
 
+
+## Recipes
+
+- [Listing recent grammars](recent_grammars.md)
+- [Mapping Tupi-Guarani subgroups](tg_subgroups.md)
+
+
+## Overview
+
 While using the "raw" Glottolog data from [glottolog/glottolog](https://github.com/glottolog/glottolog) is made easier with `pyglottolog`,
 there is also an option to access Glottolog data with "off-the-shelve" tools
 like excel or csvkit and from other programming environments like R or SQL: 
@@ -88,8 +97,3 @@ $ sqlite3 glottolog.sqlite "select l.cldf_glottocode as Glottocode, l.cldf_name 
 
 Note that column names in the SQLite database are the local names of the
 corresponding properties in the [CLDF Ontology](https://cldf.clld.org/v1.0/terms.rdf) (i.e. the names after the `#` in the term URL), prefixed with `cldf_`.
-
-
-## Recipes
-
-- [Listing recent grammars](recent_grammars.md)
