@@ -36,7 +36,7 @@ Assuming the Glottolog CLDF data is available locally at `glottolog-cldf`, we ca
 from pycldf import Dataset
 from csvw.dsv import UnicodeWriter
 
-cldf = Dataset.from_metadata(p)
+cldf = Dataset.from_metadata('glottolog-cldf/cldf/cldf-metadata.json')
 values = list(cldf.iter_rows('ValueTable', 'value', 'languageReference', 'parameterReference'))
 
 # Select Glottocodes of language-level languoids:
