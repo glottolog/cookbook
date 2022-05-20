@@ -54,6 +54,12 @@ Then we can run `cldfviz.map`
 ```shell
 $ cldfbench cldfviz.map values.csv --parameters p --colormaps '{"v":"F00"}' --pacific-centered --base-layer Esri_WorldPhysical --language-labels
 ```
+customizing
+- the color used for dots for our artificial parameter value `v` with `--colormaps '{"v":"F00"}'`
+- make sure the map is pacific-centered, thus not splitting our subgroup in two areas with `--pacific-centered`
+- use a different map base layer with `--base-layer Esri_WorldPhysical`
+- display language names on the map with `--language-labels`
+
 to create a map looking like this
 ![](img/cldfviz.png)
 
