@@ -29,27 +29,40 @@ The resulting file `cent2060.txt` is suitable as input for the `htmlmap` command
 $ glottolog htmlmap --glottocodes cent2060.txt --open
 ```
 
-The map you should see now in your browser looks rather unimpressive - although it does provide nice interactive functionality like popups with a bit of language metadata when clicking on dots.
+The [map you should see now in your browser](img/glottolog_htmlmap.png) looks rather unimpressive - although it does provide nice interactive functionality like popups with a bit of language metadata when clicking on dots.
 The resulting map (split into a HTML page and a Javascript file with the data in GeoJSON format) can be hacked on to provide further customization, but
 the `glottolog htmlmap` command itself doesn't provide many options to tune the output.
 
 
 ## `cldfviz.map`
 
-More control over the appearance of the resulting map is possible with the `cldfviz.map` subcommand for [cldfbench](https://github.com/cldf/cldfbench).
+More control over the appearance of the resulting map is possible with the [`cldfviz.map`](https://github.com/cldf/cldfviz) subcommand for [cldfbench](https://github.com/cldf/cldfbench).
 And - maybe more importantly - `cldfviz.map` allows creating maps in various image formats, suitable for printing, too.
 
 Alas, `cldfviz.map` requires CLDF data as input.
-
 But our file `cent2060.txt` from above isn't too far from a [metadata-free CLDF StructureDataset](https://github.com/cldf/cldf#metadata-free-conformance).
 In fact, all we have to do is add three more columns to it: `Parameter_ID`, `Value` and `ID` and call the result `values.csv`:
 
 ```shell
-sed '1s/$/,Parameter_ID/; 2,$s/$/,p/' glottocodes.csv |
+sed '1s/$/,Parameter_ID/; 2,$s/$/,p/' cent2060.txt |
 sed '1s/$/,Value/; 2,$s/$/,v/' |
 awk -v ln=1 'NR==1{print $0 ",ID" } NR!=1{print $0 "," ln++}' >
 values.csv 
 ```
+
+Then we can run `cldfviz.map`
+```shell
+$ cldfbench cldfviz.map values.csv --parameters p --colormaps '{"v":"F00"}' --pacific-centered --base-layer Esri_WorldPhysical --language-labels
+```
+to create a map looking like this
+![](img/cldfviz.png)
+
+of
+```shell
+$ cldfbench cldfviz.map values.csv --parameters p --colormaps '{"v":"F00"}' --width 30 --height 30 --pacific-centered --output cent2060.jpg --format jpg --language-labels --padding-top 5 --padding-bottom 5
+```
+to create a map in JPG looking like
+![](cent2060.jpg)
 
 
 ## Still more control
