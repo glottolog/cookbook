@@ -62,6 +62,7 @@ of
 $ cldfbench cldfviz.map values.csv --parameters p --colormaps '{"v":"F00"}' --width 30 --height 30 --pacific-centered --output cent2060.jpg --format jpg --language-labels --padding-top 5 --padding-bottom 5
 ```
 to create a map in JPG looking like
+
 ![](img/cent2060.jpg)
 
 
