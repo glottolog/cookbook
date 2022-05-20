@@ -6,6 +6,7 @@ typically using the Python library [`pyglottolog`](https://github.com/glottolog/
 
 - [Glottolog data as CLDF](recipes/glottolog_cldf/README.md): Accessing Glottolog data as CLDF dataset.
   - to [list recent grammars](recipes/glottolog_cldf/recent_grammars.md)
+- [Putting Glottolog languages on maps](recipes/maps.md)
 - [Examining changes across Glottolog releases](recipes/changes.md).
 - [Computing MEDs over time](recipes/med_over_time.md).
 - [treemaker](treemaker): Extracting a tree for a given set of languoids from the global tree.
