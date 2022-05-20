@@ -24,9 +24,9 @@ csvgrep -c Value -m "cent2060" |
 csvcut -c Language_ID > cent2060.txt
 ```
 
-The resulting file `cent2060.txt` is suitable as input for the `htmlmap` command:
+The resulting file `cent2060.txt` is suitable as input for the `htmlmap` command. Somewhat unfortunately, `pyglottolog` is built for accessing Glottolog data in an export of clone of the [glottolog/glottolog](https://github.com/glottolog/glottolog) repository (even though the relevant data in this case would be there in `glottolog-cldf`, too). So make sure you have `glottolog/glottolog` available locally, too (https://github.com/glottolog/glottolog#accessing-glottolog-data).
 ```shell
-$ glottolog htmlmap --glottocodes cent2060.txt --open
+$ glottolog --repos glottolog htmlmap --glottocodes cent2060.txt --open
 ```
 
 The [map you should see now in your browser](img/glottolog_htmlmap.png) looks rather unimpressive - although it does provide nice interactive functionality like popups with a bit of language metadata when clicking on dots.
@@ -50,9 +50,9 @@ awk -v ln=1 'NR==1{print $0 ",ID" } NR!=1{print $0 "," ln++}' >
 values.csv 
 ```
 
-Then we can run `cldfviz.map`
+Then we can run `cldfviz.map` (as above, `cldfviz` accesses Glottolog data via `pyglottolog`, so `glottolog/glottolog` must be available locally)
 ```shell
-$ cldfbench cldfviz.map values.csv --parameters p --colormaps '{"v":"F00"}' --pacific-centered --base-layer Esri_WorldPhysical --language-labels
+$ cldfbench cldfviz.map values.csv --glottolog glottolog --parameters p --colormaps '{"v":"F00"}' --pacific-centered --base-layer Esri_WorldPhysical --language-labels
 ```
 customizing
 - the color used for dots for our artificial parameter value `v` with `--colormaps '{"v":"F00"}'`
@@ -65,7 +65,7 @@ to create a map looking like this
 
 of
 ```shell
-$ cldfbench cldfviz.map values.csv --parameters p --colormaps '{"v":"F00"}' --width 30 --height 30 --pacific-centered --output cent2060.jpg --format jpg --language-labels --padding-top 5 --padding-bottom 5
+$ cldfbench cldfviz.map values.csv --glottolog glottolog --parameters p --colormaps '{"v":"F00"}' --width 30 --height 30 --pacific-centered --output cent2060.jpg --format jpg --language-labels --padding-top 5 --padding-bottom 5
 ```
 to create a map in JPG looking like
 
