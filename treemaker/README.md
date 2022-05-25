@@ -35,3 +35,26 @@ $ python glottolog_tree.py deu eng Welsh Pali scot1243
            │                     └─scot1243
            └─Pali
 ```
+
+Alternatively, you can just use `pyglottolog` as follows (after looking up Glottocodes for your languages):
+
+```python
+>>> from pyglottolog import Glottolog
+>>> api = Glottolog('.')
+>>> indo1319 = api.languoid('indo1319')
+>>> tree = indo1319.newick_node(template='{l.id}', maxlevel=api.languoid_levels.language)
+>>> tree.prune_by_names(['pali1273', 'wels1247', 'stan1295', 'stan1293', 'scot1243'], inverse=True)
+>>> for node in tree.walk():
+...     if node.name:
+...             node.name = api.languoid(node.name).name
+... 
+>>> tree.remove_redundant_nodes()
+>>> print(tree.ascii_art())
+                ┌─Welsh
+                │               ┌─German
+                ├─West Germanic─┤
+──Indo-European─┤               │               ┌─Scots
+                │               └─Later Anglic──┤
+                │                               └─English
+                └─Pali
+```
