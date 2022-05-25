@@ -5,6 +5,7 @@
 
 - [Listing recent grammars](recent_grammars.md)
 - [Mapping Tupi-Guarani subgroups](tg_subgroups.md)
+- [Investigating documentation status for a language subgroup](documentation_status_for_subgroup.md)
 
 
 ## Overview
