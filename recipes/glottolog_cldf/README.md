@@ -103,3 +103,45 @@ $ sqlite3 glottolog.sqlite "select l.cldf_glottocode as Glottocode, l.cldf_name 
 
 Note that column names in the SQLite database are the local names of the
 corresponding properties in the [CLDF Ontology](https://cldf.clld.org/v1.0/terms.rdf) (i.e. the names after the `#` in the term URL), prefixed with `cldf_`.
+
+
+## Accessing the Glottolog data from R
+
+While reading the CSV tables of a CLDF dataset from R is possible, doing this in a standard-compliant way would
+require 
+- first getting the table's file name according to the `propertyUrl` in the metadata
+- then consulting the table's CSV dialect spec in the metadata,
+- then converting the dialect spec into appropriate argument for a CSV reader function.
+
+All this can be circumvented by accessing the data in a SQLite database as created above:
+
+```r
+> library(RSQLite)
+> conn <- dbConnect(RSQLite::SQLite(), "glottolog.sqlite")
+> dbListTables(conn)
+[1] "CodeTable"              "LanguageTable"          "ParameterTable"        
+[4] "SourceTable"            "ValueTable"             "ValueTable_SourceTable"
+> dbGetQuery(conn, "SELECT * FROM LanguageTable LIMIT 10")
+    cldf_id              cldf_name cldf_macroarea cldf_latitude cldf_longitude
+1  more1255                    Yam                           NA             NA
+2  mong1349        Mongolic-Khitan                           NA             NA
+3  kolp1236 Kol (Papua New Guinea)      Papunesia      -5.21042        151.583
+4  naml1239          Namla-Tofanma                           NA             NA
+5  tana1288             Tanahmerah      Papunesia      -2.55230        133.180
+6  jara1244            Jarawa-Onge                           NA             NA
+7  gong1255           Ta-Ne-Omotic                           NA             NA
+8  pomo1273                 Pomoan                           NA             NA
+9  west2434           Western Daly                           NA             NA
+10 yang1287              Yangmanic                           NA             NA
+   cldf_glottocode cldf_iso639P3code Countries Family_ID Language_ID
+1         more1255              <NA>                <NA>        <NA>
+2         mong1349              <NA>                <NA>        <NA>
+3         kolp1236               kol        PG      <NA>        <NA>
+4         naml1239              <NA>                <NA>        <NA>
+5         tana1288               tcm        ID      <NA>        <NA>
+6         jara1244              <NA>                <NA>        <NA>
+7         gong1255              <NA>                <NA>        <NA>
+8         pomo1273              <NA>                <NA>        <NA>
+9         west2434              <NA>                <NA>        <NA>
+10        yang1287              <NA>                <NA>        <NA>
+```
