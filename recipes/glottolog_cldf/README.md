@@ -133,15 +133,4 @@ All this can be circumvented by accessing the data in a SQLite database as creat
 8  pomo1273                 Pomoan                           NA             NA
 9  west2434           Western Daly                           NA             NA
 10 yang1287              Yangmanic                           NA             NA
-   cldf_glottocode cldf_iso639P3code Countries Family_ID Language_ID
-1         more1255              <NA>                <NA>        <NA>
-2         mong1349              <NA>                <NA>        <NA>
-3         kolp1236               kol        PG      <NA>        <NA>
-4         naml1239              <NA>                <NA>        <NA>
-5         tana1288               tcm        ID      <NA>        <NA>
-6         jara1244              <NA>                <NA>        <NA>
-7         gong1255              <NA>                <NA>        <NA>
-8         pomo1273              <NA>                <NA>        <NA>
-9         west2434              <NA>                <NA>        <NA>
-10        yang1287              <NA>                <NA>        <NA>
 ```
